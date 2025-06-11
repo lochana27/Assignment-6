@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Gallery-1</title>
+        <style>
+         .gallery-flex{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            width: 230px;
+          }
+          .gallery-flex .product{
+            text-align: center;
+            width: 100px;
+          }
+          .gallery-flex img{
+             width: 100%;
+             border: 1px solid #555
+          }
+          </style>
+    </head>
+    <body>
+      <center><h1>Product display:</h1></center>
+        <section class="gallery-flex">
+            <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.JkKtzN1fxEuEg6dFUXeSFAHaFj?w=257&h=193&c=7&r=0&o=7&pid=1.7&rm=3" alt="product-1">
+                <p>Product 1</p>
+            </div>
+                <div class="product">
+                 <img src="https://th.bing.com/th/id/OIP.QHU2Fu6rkSA83xF5ZhMu9wHaE8?w=288&h=192&c=7&r=0&o=7&pid=1.7&rm=3" alt="product-2">
+                 <p>Product 2</p>
+                </div>
+                <div class="product">
+                <img src="data:image/webp;base64,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" alt="product-3">
+                <p>Product 3</p>
+                </div>
+                <div class="product">
+                <img src="https://th.bing.com/th/id/OIP.p-xdEHiJ6gyN2bQWp5kkiwHaHa?w=172&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="product-4">
+                <p>Product 4</p>
+                </div>
+        </section>
+    </body>
+</html>
